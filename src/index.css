@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter",sans-serif;
+    background: whitesmoke;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin: 0.2em 0;
+    color: #2B283A;
+}
+
+header{
+    margin-top: 1em;
+    width: 550px;
+    background: #F55A5A;
+    color: #FFF;
+    padding: 1em 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: #918E9B;
+    font-size: 0.625rem;
+    text-decoration: none;
+    border-bottom: 0.5px solid #918E9B;
+}
+
+.header-title{
+    margin-left: 0.5em;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+section {
+    width: 550px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-auto-rows: auto;
+    padding: 1em 2.5em 1em;
+}
+
+.image-div{
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.description-div{
+    padding: 1.25em 0 1.25em 1.25em;
+    display: flex;
+    flex-direction: column;
+}
+
+.description-location{
+    display: flex;
+    align-items: center;
+}
+
+.location{
+    font-size: 0.625rem;
+    color: #2B283A;
+    text-transform: uppercase;
+    margin-left: 0.25em;
+    margin-right: 0.75em;
+    letter-spacing: 0.3em;
+}
+
+.map-icon{
+    color: #F55A5A;
+}
+
+.date{
+    font-size: 0.625rem;
+    margin: 1em 0;
+    color: #2B283A;
+    font-weight: bold;
+}
+
+.desc-text{
+    font-size: 0.625rem;
+    color: #2B283A;
+    line-height: 1.5;
+    max-height: 4em;
+}
+
+.place-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #FFFFFF;
+}
